@@ -1,5 +1,5 @@
 {
-  "name": "now-express",
+  "name": "strider-cefet-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "William Imoh",
+  "author": "Arthur Melo",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
