@@ -3,14 +3,19 @@
   "builds": [{ "src": "index.js", "use": "@now/node-server" }],
   "routes": [
     {
-      "src": "/users",
+      "src": "/get-cefet-geometry",
       "dest": "/index.js",
       "methods": ["GET"]
     },
     {
-      "src": "/user",
+      "src": "/get-cefet-buildings",
       "dest": "/index.js",
-      "methods": ["POST"]
+      "methods": ["GET"]
+    },
+    {
+      "src": "/get-student-tracking",
+      "dest": "/index.js",
+      "methods": ["GET"]
     }
   ]
 }
